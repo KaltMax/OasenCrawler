@@ -1,0 +1,27 @@
+Oasencrawler - Manual
+
+-Nach dem Intro kann man die Seitenlängen des Spielfeldes auswählen (wurde auf 5-10 begrenzt, da diese Größen als sinnvoll erscheinen).
+
+-Der Spieler muss alle Relikte auf der Spielkarte einsammeln, um in das nächste Level aufzusteigen.
+
+-Der Gegner verfolgt den Spieler und versucht ihn zu erreichen. Erreicht der Gegner den Spieler, werden ihm LP abgezogen.
+
+-Der Gegner bewegt sich mit 80%iger Wahrscheinlichkeit auf den Spieler zu und und mit 20%iger Wahrscheinlichkeit zufällig 2 Felder in eine Richtung.
+
+-Nachdem der Gegner dem Spieler Lebenspunkte abgezogen hat, respawned er auf einer zufälligen Position auf der Spielwelt (außer auf dem Feld, auf dem sich der Spieler befindet).
+
+-Es gibt 4 verschiedene Felder (Well - +1LP, Danger - Chance auf -1LP, Empty - nix, Relic - +1RP.
+
+-Schafft es der Spieler alle Relikte einzusammeln ohne zu Sterben, steigt er in das nächste Level auf.
+
+-Wenn der Spieler stirbt und er erneut spielen möchte, werden seine LP und RP wieder zurückgesetzt und er beginnt wieder bei Level 1.
+
+-Steigt das Level der Welt an, steigt auch der Schwierigkeitsgrad an:
+	-Je höher das Level, desto wahrscheinlicher ist es bei einem Dangerfeld LPs zu verlieren.
+	-Alle 2 Level steigert sich der Schaden des Gegners um 1 (Level 1: 1 Schaden, Level 3: 2 Schaden, usw.)
+	-Pro Level verringert sich die Chance bei einer Well +1LP zu bekommen
+
+-Charakterklassen:
+	-Warrior: Höhere Chance auf einem DANGER-Feld keinen LP zu verlieren
+	-Rogue: Chance den Angriff des ENEMYs auszuweichen
+	-Sorcerer: Chance bei einem RELIC +1HP zu bekommen
